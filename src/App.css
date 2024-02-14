@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Poppins:wght@500&display=swap');
+
+.App {
+  text-align: center;
+}
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  max-width: 100%;
+  text-transform: uppercase;
+}
+
+.App {
+  margin-bottom: 100px;
+}
+
+h1 a {
+  font-size: 2rem;
+  color: black;
+  text-decoration: none;
+}
+
+nav a {
+  padding: 2rem 1rem 2rem 1rem;
+  margin: 5px;
+  color: white;
+  background-color: black;
+  font-size: 1.5rem;
+  letter-spacing: -0.01rem;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 5px solid black;
+  margin: 0 3%;
+  padding: 2% 0;
+  text-decoration: none;
+}
+
+
+
+h2 {
+  font-size: 5rem;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#login-form label {
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+#login-form input {
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  height: 5rem;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+}
+
+input {
+  text-transform: none;
+}
+
+#login-form button {
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  height: 5rem;
+  font-weight: 700;
+}
+
+#friends-list {
+  width: 90%;
+  margin: 2rem auto;
+  padding: 0rem 3rem;
+}
+
+.friend {
+  font-size: 2rem;
+  margin: 2rem 0rem;
+  display:flex;
+  justify-content: space-between;
+}
+
+
+
+@media (max-width: 1100px) {
+  header {
+    flex-direction: column;
+  }
+
+  h1 a {
+    font-size: 4rem;
+    margin: 1rem;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+    width: 80%;
+  }
+
+  nav a {
+    padding: 0.2rem 0.4rem;
+    margin: 1px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.message {
+  color: red;
+  padding: 1rem;
+}
